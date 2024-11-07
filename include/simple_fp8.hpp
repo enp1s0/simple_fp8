@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include <cmath>
 
 #ifdef __CUDA_ARCH__
 #define CUDA_DEVICE_FUNC __device__
